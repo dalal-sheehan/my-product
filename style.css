@@ -1,0 +1,84 @@
+/* Fonts and colors */
+body{
+  background: rgb(240,240,240);
+  color: rgb(30,30,30);
+  font-size: 18px;
+  font-family: 'Outfit', sans-serif;
+  margin: 0px;
+  font-weight: lighter;
+}
+h1 {
+  font-family: 'Indie Flower', sans-serif;
+  font-weight: bold;
+}
+h2 {
+  font-weight: bold;
+  font-size: 24px;
+  color: #6A71E1;
+}
+a {color: #6A71E1;text-decoration: none;}
+a:hover {color: black;}
+
+.large-banner{
+  text-align: center;
+  color: white;
+  padding: 150px 0px;
+  background-image: url("images/pink_socks.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.large-banner h1 {text-shadow: 2px 3px 6px #3e3939;}
+.large-banner p {text-shadow: 2px 3px 6px #3e3939;}
+.banner h1 {
+  font-size: 50px;
+}
+.banner p {
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+  margin-bottom: 40px;
+}
+.go {margin-top: 30px;margin-bottom: 20px}
+.go-btn {
+  color: #282828;
+  background: #fef56a;
+  box-shadow: 2px 3px 6px #3e3939;
+  border-radius: 4px;
+  padding: 15px 20px;
+}
+.go-btn:hover {
+  background: #282828;
+  color: #fef56a;
+}
+
+.white_card {
+  background-color: white;
+  border-radius: 14px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 16px;
+  margin: 16px 0px;
+}
+
+
+.footer {
+  background-color: black;
+  padding: 30px;
+  color: white;
+}
+
+
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+  display: inline;
+  padding: 0px 8px;
+}
+
+/* Adjustments with id */
+#features {
+  padding: 64px 0px;
+}
